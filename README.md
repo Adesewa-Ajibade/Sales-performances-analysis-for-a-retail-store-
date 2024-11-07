@@ -5,6 +5,7 @@
 - [Column Description](#column-description)
 - [Tools Used](#tools-used)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(eda))
+- [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
   
@@ -76,22 +77,46 @@ Overall, SQL contributed specific, actionable insights to enhance decision-makin
 
 ### Data Visualization  from Power BI
 ---------
+Based on the dashboard image provided, here’s an exploratory data analysis summary, along with recommendations and a conclusion:
 
-*Comprehensive Sales Overview:Key metrics and top-selling products were visualized, providing stakeholders with a high-level view.
-*Interactive Regional Sales Analysis:An interactive regional sales breakdown allowed exploration of performance differences across regions.
-*Seasonal and Monthly Sales Patterns: Monthly sales trends and seasonality insights supported planning for peak periods.
-*Deep-Dive Views for Top Customers and Products: Drill-down capabilities in Power BI enabled detailed views into high-value customers and products, enhancing targeted decision-making.
+### Exploratory Data Analysis (EDA)
+1. **Customer Metrics**:
+   - **Total Customers**: 9,922 customers have been recorded.
+   - **Total Revenue**: The total revenue generated amounts to 2 million.
+   - **Total Sales**: There were 68,000 individual sales transactions.
+   - **Average Revenue and Sales**: Average revenue per customer is 211.79, while the average sale value is 6.90.
+
+2. **Revenue and Sales by Region**:
+   - **Top Revenue-Contributing Region**: The East region is the highest revenue generator, contributing 44.17% of the total revenue.
+   - **Regional Sales Distribution**: The distribution shows East leading, followed by West, North, and South, indicating potential differences in demand or marketing effectiveness across regions.
+   - **Sales Volume by Region**: North and East are the regions with the highest sales volumes, with North contributing 35.68% and East contributing 42.59% of total sales.
+
+3. **Top and Bottom Performing Products**:
+   - **Top 5 Products**: The best-performing products by revenue include Shirts and Shoes, followed by Gloves and Hats.
+   - **Bottom 3 Products**: The lower-performing products include Gloves, Jackets, and Socks, with Gloves performing slightly better than the others.
+
+4. **Average Revenue by Product**:
+   - Products with higher average revenue include Shirts and Shoes, indicating strong customer preference or higher price points for these items.
+
+5. **Regional Sales Trends**:
+   - The sales trend shows a gradual decline from South to West, suggesting a possible geographical disparity in sales performance or a need to boost marketing in lower-performing regions.
+
+![Screenshot (62)](https://github.com/user-attachments/assets/b9e06513-5f7e-4ff7-8046-c47c51b5fb57)
 
 
+## Recommendations
+1. **Targeted Marketing for Low-Performing Regions**:
+   - To improve sales in regions like the South and West, consider targeted promotions or localized marketing campaigns. Tailor offers based on regional preferences and market needs.
+
+2. **Focus on Top Products**:
+   - Increase inventory and marketing efforts for top-performing products such as Shirts and Shoes. Promoting these items more actively in lower-performing regions might also help boost overall revenue.
+
+3. **Evaluate Product Line for Bottom Performers**:
+   - For lower-performing products (Gloves, Jackets, and Socks), consider strategies like discounts or bundling with popular items. Alternatively, assess if these products should be phased out or improved based on customer feedback.
 
 ## Conclusion 
 ---------
-
-The sales data analysis gave useful information on trends, product performance, and sales in different regions. Key findings show how important it is to understand changes in sales over time, 
-manage inventory well, and use targeted marketing. By noticing seasonal trends and identifying top products and customer groups, the company can make smart decisions to improve sales. 
-In summary, this project shows the potential for growth through informed choices. By responding strategically to trends and patterns, 
-the company is set to boost sales, improve profits, and achieve steady growth in the years ahead.
-
+The dashboard provides valuable insights into sales performance across products and regions. With the East region and products like Shirts and Shoes leading in revenue, there are clear opportunities for growth by focusing on underperforming regions and products. By strategically targeting marketing efforts, optimizing stock, and enhancing customer engagement, the retail store can drive revenue growth and better meet customer demand across regions.
 
 
 
